@@ -16,5 +16,6 @@
 
 .circle{
     position: relative; background: #FFF; width: 40px; height: 40px; display: inline-block;
-    left: 50
+    left: 50%; transform: translateX(-150%); border-radius: 100%; z-index: 999;
 }
+
