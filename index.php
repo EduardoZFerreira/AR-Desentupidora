@@ -19,14 +19,14 @@
                 <div class="slider">
                     <div class="sliderimg">
                         <img src="resources/img/slider/1.jpg" alt="" id="1" />
-                        <img src="resources/img/slider/2.jpg" alt="" id="3" />
-                        <img src="resources/img/slider/3.jpg" alt="" id="2" />
+                        <img src="resources/img/slider/2.jpg" alt="" id="2" class="hidden" />
+                        <img src="resources/img/slider/3.jpg" alt="" id="3" class="hidden" />
                     </div>
                     <div class="slidercontrollers">
                         <div class="circles">
-                            <div class="circle" id="slider-btn-1" class="trigger-slider tst"></div>
-                            <div class="circle" id="slider-btn-2" class="trigger-slider tst"></div>
-                            <div class="circle" id="slider-btn-3" class="trigger-slider tst"></div>
+                            <div class="circle" id="slider-btn-1"></div>
+                            <div class="circle" id="slider-btn-2"></div>
+                            <div class="circle" id="slider-btn-3"></div>
                         </div>
                         <div class="arrows">
                         </div>
