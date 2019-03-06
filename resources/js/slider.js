@@ -10,8 +10,24 @@ $(document).ready(function(e){
         let target = id.substring(id.length - 1, id.length);
         Hide(current);
         Show(target);
-        current = target;
+        ValidateNextPrev(target);      
+        
 
+    });
+
+    $('.prev').click(function(e){
+        Hide(current);
+        console.log(prev);
+        Show(prev);
+        ValidateNextPrev(prev);
+        
+    });
+
+    $('.next').click(function(e){
+        Hide(current);
+        console.log(next);
+        Show(next);
+        ValidateNextPrev(next);
     });
 });
 
@@ -27,4 +43,12 @@ function Show(target){
     $('#' + target).css('visibility', 'visible');
     $('#' + target).css('opacity', '1');    
     $('#' + target).css('left', '0');
+}
+
+function ValidateNextPrev(pCurrent){
+    prev = pCurrent - 1;
+    next = pCurrent + 1;
+    current = pCurrent;
+    if(prev <= 0) prev = 3;
+    if(next >= 3) next = 1;
 }

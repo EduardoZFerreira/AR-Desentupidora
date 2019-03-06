@@ -29,6 +29,8 @@
                             <div class="circle" id="slider-btn-3"></div>
                         </div>
                         <div class="arrows">
+                            <div class="prev arrow"> < </div>
+                            <div class="next arrow" > > </div>
                         </div>
                     </div>
                 </div>
