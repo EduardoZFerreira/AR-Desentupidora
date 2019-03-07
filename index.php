@@ -9,6 +9,16 @@
     <body>
         <div class="container">
             <div class="header">
+			<div id="email">
+			<img src="email.png" alt="email" width=20 height=20>
+			<p> ardesentupidora@hotmail.com</p>
+			</div>
+			<div id="telefone">
+			<img src="tel.jpg" alt="telefone" width=20 height=20>
+			<p>(47) 3432-9438 | (47) 96361848</p>
+			</div>
+			
+			
 
             </div>
             <div class="side-navigation">
@@ -37,7 +47,12 @@
 
             </div>
 
-            <div class="footer">
+            <div class="Contato">
+			<div class="title">
+			<center><h1> Solicite um Orçamento </h1></center>
+            </div>
+			
+			<div class="footer">
 
             </div>
         </div>

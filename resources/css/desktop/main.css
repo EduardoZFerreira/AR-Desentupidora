@@ -6,3 +6,16 @@
 .container{
     position: relative; width: 100%;
 }
+
+.header{
+	background-color:black;
+	color:white;
+	font-weight:bold;
+	
+}
+#email{margin-left:20%;}
+#telefone{margin-left:50%;}
+.top{display:inline-block;}
+
+.title{background-color:black;
+color:white;}
