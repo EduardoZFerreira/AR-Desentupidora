@@ -12,21 +12,39 @@
             <div class="header">
 			
 			<div class="email">
-			<img src="email.png" alt="email" width=20 height=20>
+			<img class="imgemail" src="email.png" alt="email" width=20 height=20>
 			<p> ardesentupidora@hotmail.com</p>
 			</div>
 			
 			
 			<div class="telefone">
-			<img src="tel.jpg" alt="telefone" width=20 height=20>
+			<img class="imgtel" src="tel.jpg" alt="telefone" width=25 height=23>
 			<p>(47) 3432-9438 | (47) 9636-1848</p>
 			
 			</div>
 			
 
             </div>
-            <div class="side-navigation">
-
+            <div class="menu">
+			
+			<div class="logo">
+			<h1 class="ar"> A R </h1>
+			</div>
+			
+			<div class="itens-menu">
+			
+			<img class="img" src="inicio.jpg" alt="inicio" width=60 height=60>
+			
+		
+			
+			<img class="img" src="contato.png" alt="contato" width=75 height=75>
+			
+		
+			
+			<img class="img" src="serviços.jpg" alt="servicos" width=60 height=63>
+			
+			
+			</div>
             </div>
             <div class="content" id="loader">
 
@@ -51,28 +69,23 @@
 
             </div>
 
-            <div class="Contato">
 			<div class="title">
-			<center><h1> Solicite um Orçamento </h1></center>
+			<center></br><h1> Solicite um Orçamento </h1></center>
+			</div>
+            <div class="Contato">	
+			<div class="form">
 			</div>
 			
-			<div class="container">
-  <div class="row">
-    <div class="col">
-     
-    </div>
-    <div class="col">
-     <img src="map.jpg" alt="mapa" width=400 height=250>
-	 <img src="email.png" alt="email" width=20 height=20>
-			<p> ardesentupidora@hotmail.com</p>
-			
-		<img src="tel.jpg" alt="telefone" width=20 height=20>
-			<p>(47) 3432-9438 | (47) 96361848</p>	
-			
+			<div class="mapa">
+	 <img src="map.jpg" alt="inicio" width=60 height=60>
+	  <img src="email.jpg" alt="inicio" width=60 height=60>
+	 <p> ardesentupidora@hotmail.com</p>
+	  <img src="tel.jpg" alt="inicio" width=60 height=60>
+	 <p>(47) 3432-9438 | (47) 9636-1848</p>
 	 
+	 </div>
     </div>
-  </div>
-            </div>
+  
 			
 			<div class="footer">
 
