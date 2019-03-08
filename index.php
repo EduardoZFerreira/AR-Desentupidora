@@ -5,19 +5,23 @@
         <title> AR DESENTUPIDORA </title>
         <link rel="stylesheet" type="text/css" href="resources/css/desktop/slider.css" />
         <link rel="stylesheet" type="text/css" href="resources/css/desktop/main.css" />
+		
     </head>
     <body>
         <div class="container">
             <div class="header">
-			<div id="email">
+			
+			<div class="email">
 			<img src="email.png" alt="email" width=20 height=20>
 			<p> ardesentupidora@hotmail.com</p>
 			</div>
-			<div id="telefone">
-			<img src="tel.jpg" alt="telefone" width=20 height=20>
-			<p>(47) 3432-9438 | (47) 96361848</p>
-			</div>
 			
+			
+			<div class="telefone">
+			<img src="tel.jpg" alt="telefone" width=20 height=20>
+			<p>(47) 3432-9438 | (47) 9636-1848</p>
+			
+			</div>
 			
 
             </div>
@@ -50,6 +54,24 @@
             <div class="Contato">
 			<div class="title">
 			<center><h1> Solicite um Orçamento </h1></center>
+			</div>
+			
+			<div class="container">
+  <div class="row">
+    <div class="col">
+     
+    </div>
+    <div class="col">
+     <img src="map.jpg" alt="mapa" width=400 height=250>
+	 <img src="email.png" alt="email" width=20 height=20>
+			<p> ardesentupidora@hotmail.com</p>
+			
+		<img src="tel.jpg" alt="telefone" width=20 height=20>
+			<p>(47) 3432-9438 | (47) 96361848</p>	
+			
+	 
+    </div>
+  </div>
             </div>
 			
 			<div class="footer">
