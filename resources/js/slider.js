@@ -46,9 +46,8 @@ function Show(target){
 }
 
 function ValidateNextPrev(pCurrent){
-    prev = pCurrent - 1;
-    next = pCurrent + 1;
+    prev = pCurrent - 1 < 1 ? 3 : pCurrent - 1;
+    next = pCurrent + 1 > 3 ? 1 : pCurrent + 1;
     current = pCurrent;
-    if(prev <= 0) prev = 3;
-    if(next >= 3) next = 1;
+    
 }
