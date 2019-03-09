@@ -5,25 +5,26 @@ var prev = 3;
 
 
 $(document).ready(function(e){
+    $('#' + prev).css('left', '-100%');
+    $('#' + next).css('left', '100%');
     $('.circle').click(function(e){
         let id = e.target.id;
-        let target = id.substring(id.length - 1, id.length);
-        ValidateNextPrev(target);      
+        current = parseInt(id.substring(id.length - 1, id.length), 10);
+        ValidateNextPrev();      
     });
 
     $('.prev').click(function(e){
         current = prev;
-        ValidateNextPrev(prev);
-        
+        ValidateNextPrev();        
     });
 
     $('.next').click(function(e){
         current = next;
-        ValidateNextPrev(next);
+        ValidateNextPrev();
     });
 });
 
-function ValidateNextPrev(pCurrent){
+function ValidateNextPrev(){
     prev = current - 1 < 1 ? 3 : current - 1;
     next = current + 1 > 3 ? 1 : current + 1;
     Toggle();    
