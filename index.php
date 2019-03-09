@@ -3,8 +3,8 @@
     <head>
         <link rel="shortcut icon" type="image/png" href="resources/img/favicon.png"/>
         <title> AR DESENTUPIDORA </title>
-        <link rel="stylesheet" type="text/css" href="resources/css/desktop/slider.css" />
         <link rel="stylesheet" type="text/css" href="resources/css/desktop/main.css" />
+        <link rel="stylesheet" type="text/css" href="resources/css/desktop/slider.css" />        
 		
     </head>
     <body>
