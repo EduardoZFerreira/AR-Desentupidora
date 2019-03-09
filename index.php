@@ -74,14 +74,28 @@
 			</div>
             <div class="Contato">	
 			<div class="form">
+			<input type="text"  placeholder="Nome" required="required" name="nome" /></br>
+			<input type="text"  placeholder="Email" required="required" name="email" /></br>
+			<input type="text"  placeholder="Telefone" required="required" name="telefone" /></br>
+			<textarea placeholder="Como podemos te ajudar"></textarea>
+			<p class="submit">
+            <input type="submit" onclick="Enviar();" value="Enviar" />
+        </p>
+			
 			</div>
 			
 			<div class="mapa">
-	 <img src="map.jpg" alt="inicio" width=60 height=60>
-	  <img src="email.jpg" alt="inicio" width=60 height=60>
+	 <img src="map.png" alt="inicio" width=310 height=275>
+	 
+	 <div class="dadosemail">
+	 <img src="email1.png" alt="inicio" width=27 height=27>
 	 <p> ardesentupidora@hotmail.com</p>
-	  <img src="tel.jpg" alt="inicio" width=60 height=60>
+	  </div>
+	   <div class="dadostel">
+	  <img src="whats.png" alt="inicio" width=27 height=27>
 	 <p>(47) 3432-9438 | (47) 9636-1848</p>
+	 </div>
+	  
 	 
 	 </div>
     </div>

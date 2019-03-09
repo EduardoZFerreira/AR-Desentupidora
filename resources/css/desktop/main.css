@@ -64,6 +64,7 @@
 .title{background-color:black;color:white;height:75px;}
 
 .Contato{height:500px;
+margin-right:150px;
 	display:flex;
 	flex-direction:row;
 	flex-wrap:nowrap;
@@ -71,5 +72,51 @@
 	justify-content:space-between;
 	align-items:center;
 }
+.dadosemail{
+	font-size:17px;
+	padding-top:18px;
+	width:260px;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	align-content:center;
+	justify-content:space-between;
+	align-items:center;}
+	
+	.dadostel{
+		font-size:16px;
+		padding-top:18px;
+		width:260px;
+		display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	align-content:center;
+	justify-content:space-between;
+	align-items:center;}
+	
+	input, textarea {
+    width: 400px;
+    padding: 16px;
+    color: black;
+    margin-left: 80px;
+	margin-top:20px;
+	border:1px solid black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	}
+	.submit input {
+		font-size:15px;
+    background-color: black;
+    height: 40px;
+    width: 100px;
+   
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: white;
+	float:right;
+	}
 
+	
 .footer{width:100%;height:80px;background-color:black;}
