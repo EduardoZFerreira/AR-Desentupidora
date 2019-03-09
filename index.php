@@ -50,7 +50,7 @@
 
                 <div class="slider">
                     <div class="sliderimg">
-                        <img src="resources/img/slider/1.jpg" alt="" id="1" />
+                        <img src="resources/img/slider/1.jpg" alt="" id="1" class="visible" />
                         <img src="resources/img/slider/2.jpg" alt="" id="2" class="hidden" />
                         <img src="resources/img/slider/3.jpg" alt="" id="3" class="hidden" />
                     </div>

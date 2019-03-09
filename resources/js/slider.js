@@ -36,6 +36,9 @@ function Hide(target){
     $('#' + target).css('visibility', 'hidden');
     $('#' + target).css('opacity', '0');
     $('#' + target).css('left', '-500px');
+    setTimeout(function(){
+        $('#' + target).css('left', '100%');
+    }, 300);
 
 }
 
@@ -43,11 +46,20 @@ function Show(target){
     $('#' + target).css('visibility', 'visible');
     $('#' + target).css('opacity', '1');    
     $('#' + target).css('left', '0');
+    
 }
 
 function ValidateNextPrev(pCurrent){
     prev = pCurrent - 1 < 1 ? 3 : pCurrent - 1;
     next = pCurrent + 1 > 3 ? 1 : pCurrent + 1;
-    current = pCurrent;
+    current = pCurrent;    
+}
+
+function SlideLeft(target){
     
+}
+
+
+function SlideRight(){
+
 }
