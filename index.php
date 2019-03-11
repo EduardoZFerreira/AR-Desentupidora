@@ -72,7 +72,7 @@
             </div>
 
 			<div class="title">
-			<center></br><h1> Solicite um Orçamento </h1></center>
+				<center></br><h1> Solicite um Orçamento </h1></center>
 			</div>
             <div class="Contato">	
 			<div class="form">
@@ -102,7 +102,20 @@
 	 </div>
     </div>
   
-			
+			<div class="servicos">
+				<div class="slider">
+                    <div class="sliderimg">
+                        <img src="resources/img/slider/1.jpg" alt="" id="desentupidora" class="visible" />
+                        <img src="resources/img/slider/2.jpg" alt="" id="construcao" class="hidden" />
+                    </div>
+                    <div class="slidercontrollers">
+                        <div class="selectors">
+                            <div class="selector-serv" id="serv-btn-desen">Desntupimentos</div>
+                            <div class="selector-serv" id="serv-btn-const">Construção</div>
+                        </div>
+                    </div>
+                </div>
+			</div>
 			<div class="footer">
 
             </div>
