@@ -105,8 +105,8 @@
 			<div class="servicos">
 				<div class="slider">
                     <div class="sliderimg">
-                        <img src="resources/img/slider/1.jpg" alt="" id="desentupidora" class="visible" />
-                        <img src="resources/img/slider/2.jpg" alt="" id="construcao" class="hidden" />
+                        <img src="resources/img/slider/4.jpg" alt="" id="desentupidora" class="visible" />
+                        <img src="resources/img/slider/4.jpg" alt="" id="construcao" class="hidden" />
                     </div>
                     <div class="slidercontrollers">
                         <div class="selectors">
