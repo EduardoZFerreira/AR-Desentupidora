@@ -3,6 +3,7 @@ var current = 1;
 var next = 2;
 var prev = 3;
 
+var loop = window.setInterval(Next, 4000);
 
 $(document).ready(function(e){
     $('#' + prev).css('left', '-100%');
@@ -18,11 +19,14 @@ $(document).ready(function(e){
         ValidateNextPrev();        
     });
 
-    $('.next').click(function(e){
-        current = next;
-        ValidateNextPrev();
-    });
+    $('.next').click(Next);
+    
 });
+
+function Next(){
+    current = next;
+    ValidateNextPrev();
+}
 
 function ValidateNextPrev(){
     prev = current - 1 < 1 ? 3 : current - 1;
@@ -31,8 +35,10 @@ function ValidateNextPrev(){
 }
 
 function Toggle(){
+    window.clearInterval(loop);
     SlideLeft();
     SlideRight();
+    loop = window.setInterval(Next, 4000);
 }
 
 function SlideLeft(){
