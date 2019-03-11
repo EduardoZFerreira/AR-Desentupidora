@@ -12,6 +12,7 @@ $(document).ready(function(e){
         let id = e.target.id;
         current = parseInt(id.substring(id.length - 1, id.length), 10);
         ValidateNextPrev();      
+        
     });
 
     $('.prev').click(function(e){
@@ -38,6 +39,8 @@ function Toggle(){
     window.clearInterval(loop);
     SlideLeft();
     SlideRight();
+    $(".circle").css("opacity", ".5");
+    $("#slider-btn-" + current).css("opacity", "1");
     loop = window.setInterval(Next, 4000);
 }
 
