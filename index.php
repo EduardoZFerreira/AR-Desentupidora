@@ -52,9 +52,24 @@
 
                 <div class="slider">
                     <div class="sliderimg">
-                        <img src="resources/img/slider/1.jpg" alt="" id="1" class="visible" />
-                        <img src="resources/img/slider/2.jpg" alt="" id="2" class="hidden" />
-                        <img src="resources/img/slider/3.jpg" alt="" id="3" class="hidden" />
+                        <div id="1"  class="visible">
+                            <div class="desc">
+                                Lorem Ipsum
+                            </div>
+                            <img src="resources/img/slider/1.jpg" alt="" />
+                        </div>
+                        <div id="2"  class="hidden">
+                            <div class="desc">
+                                Lorem Ipsum
+                            </div>
+                            <img src="resources/img/slider/2.jpg" alt="" />
+                        </div>
+                        <div id="3"  class="hidden">
+                            <div class="desc">
+                                Lorem Ipsum
+                            </div>
+                            <img src="resources/img/slider/3.jpg" alt="" />
+                        </div>
                     </div>
                     <div class="slidercontrollers">
                         <div class="circles">
@@ -105,8 +120,18 @@
 			<div class="servicos">
 				<div class="slider">
                     <div class="sliderimg">
-                        <img src="resources/img/slider/1.jpg" alt="" id="desentupidora" class="visible" />
-                        <img src="resources/img/slider/2.jpg" alt="" id="construcao" class="hidden" />
+                        <div id="desentupidora"  class="visible">
+                            <div class="desc">
+                                Lorem Ipsum
+                            </div>
+                            <img src="resources/img/slider/1.jpg" alt="" />
+                        </div>
+                        <div id="construcao"  class="visible">
+                            <div class="desc">
+                                Lorem Ipsum
+                            </div>
+                            <img src="resources/img/slider/2.jpg" alt="" />
+                        </div>
                     </div>
                     <div class="slidercontrollers">
                         <div class="selectors">
