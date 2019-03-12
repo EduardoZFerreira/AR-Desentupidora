@@ -3,8 +3,10 @@
     <head>
         <link rel="shortcut icon" type="image/png" href="resources/img/favicon.png"/>
         <title> AR DESENTUPIDORA </title>
-        <link rel="stylesheet" type="text/css" href="resources/css/desktop/slider.css" />
         <link rel="stylesheet" type="text/css" href="resources/css/desktop/main.css" />
+        <link rel="stylesheet" type="text/css" href="resources/css/desktop/slider.css" />  
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">		
 		
     </head>
     <body>
@@ -50,9 +52,24 @@
 
                 <div class="slider">
                     <div class="sliderimg">
-                        <img src="resources/img/slider/1.jpg" alt="" id="1" class="visible" />
-                        <img src="resources/img/slider/2.jpg" alt="" id="2" class="hidden" />
-                        <img src="resources/img/slider/3.jpg" alt="" id="3" class="hidden" />
+                        <div id="1"  class="visible">
+                            <div class="desc">
+                                Lorem Ipsum
+                            </div>
+                            <img src="resources/img/slider/1.jpg" alt="" />
+                        </div>
+                        <div id="2"  class="hidden">
+                            <div class="desc">
+                                Lorem Ipsum
+                            </div>
+                            <img src="resources/img/slider/2.jpg" alt="" />
+                        </div>
+                        <div id="3"  class="hidden">
+                            <div class="desc">
+                                Lorem Ipsum
+                            </div>
+                            <img src="resources/img/slider/3.jpg" alt="" />
+                        </div>
                     </div>
                     <div class="slidercontrollers">
                         <div class="circles">
@@ -61,8 +78,8 @@
                             <div class="circle" id="slider-btn-3"></div>
                         </div>
                         <div class="arrows">
-                            <div class="prev arrow"> < </div>
-                            <div class="next arrow" > > </div>
+                            <div class="prev arrow"> <i class='fas fa-chevron-left' style='font-size:54px;color:white'></i> </div>
+                            <div class="next arrow" > <i class='fas fa-chevron-right' style='font-size:54px;color:white'></i> </div>
                         </div>
                     </div>
                 </div>
@@ -70,7 +87,7 @@
             </div>
 
 			<div class="title">
-			<center></br><h1> Solicite um Orçamento </h1></center>
+				<center></br><h1> Solicite um Orçamento </h1></center>
 			</div>
             <div class="Contato">	
 			<div class="form">
@@ -94,13 +111,34 @@
 	   <div class="dadostel">
 	  <img src="whats.png" alt="inicio" width=27 height=27>
 	 <p>(47) 3432-9438 | (47) 9636-1848</p>
-	 </div>
-	  
-	 
+	 </div>	  	 
 	 </div>
     </div>
   
-			
+			<div class="servicos">
+				<div class="slider">
+                    <div class="sliderimg">
+                        <div id="desentupidora"  class="visible">
+                            <div class="desc">
+                                Lorem Ipsum
+                            </div>
+                            <img src="resources/img/slider/1.jpg" alt="" />
+                        </div>
+                        <div id="construcao"  class="visible">
+                            <div class="desc">
+                                Lorem Ipsum
+                            </div>
+                            <img src="resources/img/slider/2.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="slidercontrollers">
+                        <div class="selectors">
+                            <div class="selector-serv" id="serv-btn-desen">Desntupimentos</div>
+                            <div class="selector-serv" id="serv-btn-const">Construção</div>
+                        </div>
+                    </div>
+                </div>
+			</div>
 			<div class="footer">
 
             </div>
