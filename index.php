@@ -111,9 +111,7 @@
 	   <div class="dadostel">
 	  <img src="whats.png" alt="inicio" width=27 height=27>
 	 <p>(47) 3432-9438 | (47) 9636-1848</p>
-	 </div>
-	  
-	 
+	 </div>	  	 
 	 </div>
     </div>
   
