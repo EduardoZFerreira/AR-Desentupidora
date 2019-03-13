@@ -54,19 +54,19 @@
                     <div class="sliderimg">
                         <div id="1"  class="visible">
                             <div class="desc">
-                                Lorem Ipsum
+                               <p class="titleslider1">Trabalhos em </br> Estruturas </br> Metálicas</p>
                             </div>
                             <img src="resources/img/slider/1.jpg" alt="" />
                         </div>
                         <div id="2"  class="hidden">
-                            <div class="desc">
-                                Lorem Ipsum
+                            <div class="desc2">
+                                <center><p class="titleslider">Construção </br> & </br>Reformas</br>  </p></center>
                             </div>
                             <img src="resources/img/slider/2.jpg" alt="" />
                         </div>
                         <div id="3"  class="hidden">
-                            <div class="desc">
-                                Lorem Ipsum
+                            <div class="desc3">
+							<center><p class="titleslider">Serviços </br> De </br> Hidrojateamento</p></center>
                             </div>
                             <img src="resources/img/slider/3.jpg" alt="" />
                         </div>
@@ -96,7 +96,7 @@
 			<input type="text"  placeholder="Telefone" required="required" name="telefone" /></br>
 			<textarea placeholder="Como podemos te ajudar"></textarea>
 			<p class="submit">
-            <input type="submit" onclick="Enviar();" value="Enviar" />
+			<input type="submit" onclick="Enviar();" value="Enviar" />
         </p>
 			
 			</div>
@@ -119,23 +119,42 @@
 				<div class="slider">
                     <div class="sliderimg">
                         <div id="desentupidora"  class="visible">
-                            <div class="desc">
-                                Lorem Ipsum
+                            <div class="desc4">
+							<center><h1 class="titleserv"> Serviços</h1></center></br></br></br>
+							<div class="conteudoserv">
+							<h3 class="hdesc">- Desentupimento</h3>
+							<p class="pdesc">(Ralo,Pia,Vaso Sanitario,Tanque,Encanamento em Geral)</p></br>
+							<h3 class="hdesc">- Limpeza</h3>
+							<p class="pdesc">(Fossa Filtro,Esgoto e Estação de Tratamento com Caminhão Hidrojato)</p></br>
+							<h3 class="hdesc">- Ligação de Esgoto</h3></br>
+							
+							<h3 class="hdesc">- Detetização</h3>
+							</div>
+							
                             </div>
-                            <img src="resources/img/slider/1.jpg" alt="" />
+                            <img src="resources/img/slider/reforma.jpg" alt="" />
                         </div>
-                        <div id="construcao"  class="visible">
-                            <div class="desc">
-                                Lorem Ipsum
+                        <div id="construcao">
+                            <div class="desc5">
+                                <center><h1 class="titleserv"> Serviços</h1></center></br></br></br>
+							<div class="conteudoserv">
+							<h3 class="hdesc">- Construção Civil</h3></br>
+							
+							<h3 class="hdesc">- Elétrica</h3></br>
+							
+							<h3 class="hdesc">- Hidráulica</h3></br>
+							
+							<h3 class="hdesc">- Pintura</h3></br>
+							
+							<h3 class="hdesc">- Reformas em Geral</h3>
+							</div>
+							
+                            
                             </div>
-                            <img src="resources/img/slider/2.jpg" alt="" />
+                            
                         </div>
                     </div>
-                    <div class="slidercontrollers">
-                        <div class="selectors">
-                            <div class="selector-serv" id="serv-btn-desen">Desntupimentos</div>
-                            <div class="selector-serv" id="serv-btn-const">Construção</div>
-                        </div>
+                    
                     </div>
                 </div>
 			</div>

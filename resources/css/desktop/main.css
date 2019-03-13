@@ -64,6 +64,8 @@
 .img{padding-left:60px;}
 
 .title{background-color:black;color:white;height:75px; box-shadow:2px 2px #26DCE9;}
+.titleslider{margin-top:140px;}
+.titleslider1{margin-top:120px;margin-left:25%;}
 
 .Contato{height:500px;
 margin-right:150px;
@@ -107,6 +109,8 @@ margin-right:150px;
     -moz-border-radius: 5px;
 	}
 	.submit input {
+		font-weight:bold;
+		padding-bottom:27px;
 		box-shadow:0px 1px #26DCE9;
 		font-size:15px;
     background-color: black;
@@ -120,6 +124,10 @@ margin-right:150px;
     color: white;
 	float:right;
 	}
+	.hdesc{font-size:20px;}
+	.pdesc{font-size:15px;}
+	.titleserv{margin-top:20px;margin-bottom;45px;}
+	.conteudoserv{margin-left:20px;line-height:30px;}
 
 	
 .footer{width:100%;height:80px;background-color:black;}
