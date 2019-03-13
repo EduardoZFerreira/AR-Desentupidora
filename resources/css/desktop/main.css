@@ -1,10 +1,11 @@
 *{
    
-    margin: 0; padding: 0;
+    margin: 0; padding: 0;list-style-type:none;
 }
 
 
-
+.legendaicon{margin-left:70px;margin-top:8px;list-style-type:none;color:#D8D8D8;}
+.legendaiconc{margin-left:70px;margin-top:-5px;list-style-type:none;color:#D8D8D8;}
 .header{
 	height:45px;
 	display:flex;
@@ -62,8 +63,9 @@
 .logo{margin-left:60px;color:#26DCE9;font-size:23px;}
 
 .img{padding-left:60px;}
+.imgcont{padding-left:60px; margin-bottom:9px;margin-top:-11px;}
 
-.title{background-color:black;color:white;height:75px; box-shadow:2px 2px #26DCE9;}
+.title{background-color:black;color:white;height:80px; box-shadow:2px 2px #26DCE9;margin-top:5px;}
 .titleslider{margin-top:140px;}
 .titleslider1{margin-top:120px;margin-left:25%;}
 
@@ -130,4 +132,4 @@ margin-right:150px;
 	.conteudoserv{margin-left:20px;line-height:30px;}
 
 	
-.footer{width:100%;height:80px;background-color:black;}
+	.footer{width:100%;height:80px;background-color:black;color:white;font-size:14px;}

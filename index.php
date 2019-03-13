@@ -21,7 +21,7 @@
 			
 			<div class="telefone">
 			<img class="imgtel" src="tel.jpg" alt="telefone" width=25 height=23>
-			<p>(47) 3432-9438 | (47) 9636-1848</p>
+			<p>(47) 3432-9438 | (47) 9636-1848 | (47) 8453-4653</p>
 			
 			</div>
 			
@@ -34,17 +34,21 @@
 			</div>
 			
 			<div class="itens-menu">
+			<ul>
+			<li><img class="img" src="inicio.jpg" alt="inicio" width=60 height=62></li>
+			<li><p class="legendaicon">Inicio</p></li>
+			</ul>
+			<ul>
 			
-			<img class="img" src="inicio.jpg" alt="inicio" width=60 height=60>
-			
+			<li><img class="imgcont" src="contato.png" alt="contato" width=75 height=80></li>
+			<li><p class="legendaiconc">Contato</p></li>
+			</ul>
 		
+			<ul>
 			
-			<img class="img" src="contato.png" alt="contato" width=75 height=75>
-			
-		
-			
-			<img class="img" src="serviços.jpg" alt="servicos" width=60 height=63>
-			
+			<li><img class="img" src="serviços.jpg" alt="servicos" width=60 height=63></li>
+			<li><p class="legendaicon">Serviços</p></li>
+			</ul>
 			
 			</div>
             </div>
@@ -159,7 +163,7 @@
                 </div>
 			</div>
 			<div class="footer">
-
+			<center><p>Desenvolvido por ACM Desenvolvimento Digital | (47) 99615 - 9067 | (47) 99999 - 5517 </p>
             </div>
         </div>
     </body>
