@@ -30,26 +30,33 @@
             <div class="menu">
 			
 			<div class="logo">
-			<h1 class="ar"> A R </h1>
+			<img src="resources/img/favicon.png" class="ar" alt="">
+			<h1 class="ar">  </h1>
 			</div>
 			
 			<div class="itens-menu">
-			<ul>
-			<li><img class="img" src="inicio.jpg" alt="inicio" width=60 height=62></li>
-			<li><p class="legendaicon">Inicio</p></li>
-			</ul>
-			<ul>
+				<ul class="nav">
+					<li class="nav-item">
+						<a href="" target="_blank" rel="noopener noreferrer">
+							<img class="nav-icon" src="inicio.jpg" alt="inicio" width=60 height=62>
+							<p class="legendaicon">Inicio</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="" target="_blank" rel="noopener noreferrer">
+							<img class="nav-icon" src="contato.png" alt="inicio" width=60 height=62>
+							<p class="legendaicon">Contato</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="" target="_blank" rel="noopener noreferrer">
+							<img class="nav-icon" src="serviços.jpg" alt="inicio" width=60 height=62>
+							<p class="legendaicon">Serviços</p>
+						</a>
+					</li>
+				</ul>
 			
-			<li><img class="imgcont" src="contato.png" alt="contato" width=75 height=80></li>
-			<li><p class="legendaiconc">Contato</p></li>
-			</ul>
-		
-			<ul>
-			
-			<li><img class="img" src="serviços.jpg" alt="servicos" width=60 height=63></li>
-			<li><p class="legendaicon">Serviços</p></li>
-			</ul>
-			
+			<ul>			
 			</div>
             </div>
             <div class="content" id="loader">
