@@ -4,7 +4,7 @@
 }
 
 
-.legendaicon{margin-left:70px;margin-top:8px;list-style-type:none;color:#D8D8D8;}
+.legendaicon{ margin-top:8px;list-style-type:none; color: #0dd5d5; position: relative; width: 100%; text-align: center;}
 .legendaiconc{margin-left:70px;margin-top:-5px;list-style-type:none;color:#D8D8D8;}
 .header{
 	height:45px;
@@ -56,6 +56,7 @@
 	justify-content:space-between;
 	align-items:center;
 	position: relative;
+	width: 30%;
 }
 
 .itens-menu .nav{
@@ -69,11 +70,15 @@
 
 .itens-menu .nav .nav-item a{
 	position: relative; width: 100%; height: 100%; display: block;
+	text-decoration: none;
+}
+
+.nav-icon{
+	position: relative; left: 50%; transform: translateX(-50%);
 }
 
 .imgtel{padding-right:19px;}
 .imgemail{padding-right:16px;}
-.itens-menu{margin-right:230px;}
 .logo{position: relative; width: 10%; height: 100%; left: 5%;}
 
 .logo img{
