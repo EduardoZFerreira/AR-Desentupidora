@@ -38,19 +38,19 @@
 			<div class="itens-menu">
 				<ul class="nav">
 					<li class="nav-item">
-						<a href="" target="_blank" rel="noopener noreferrer">
+						<a href="index.php " rel="noopener noreferrer">
 							<img class="nav-icon" src="inicio.jpg" alt="inicio" width=60 height=62>
 							<p class="legendaicon">Inicio</p>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="" target="_blank" rel="noopener noreferrer">
+						<a href="index.php #formContato" rel="noopener noreferrer">
 							<img class="nav-icon" src="contato.png" alt="inicio" width=60 height=62>
 							<p class="legendaicon">Contato</p>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="" target="_blank" rel="noopener noreferrer">
+						<a href="index.php #servicos" rel="noopener noreferrer">
 							<img class="nav-icon" src="serviços.jpg" alt="inicio" width=60 height=62>
 							<p class="legendaicon">Serviços</p>
 						</a>
@@ -101,7 +101,7 @@
 			<div class="title">
 				<center></br><h1> Solicite um Orçamento </h1></center>
 			</div>
-            <div class="Contato">	
+            <div class="Contato" id="formContato">	
 			<div class="form">
 			<input type="text"  placeholder="Nome" required="required" name="nome" /></br>
 			<input type="text"  placeholder="Email" required="required" name="email" /></br>
@@ -127,7 +127,7 @@
 	 </div>
     </div>
   
-			<div class="servicos">
+			<div class="servicos" id="servicos">
 				<div class="slider">
                     <div class="sliderimg">
                         <div id="desentupidora"  class="visible">
@@ -178,3 +178,13 @@
 </html>
 <script src="resources/js/jquery-3.3.1.min.js"></script>
 <script src="resources/js/slider.js"></script>
+<script>
+	$('a[href^="#"]').on('click', function(e)
+	{
+		e.preventDefault();
+		var target = this.hash;
+		var $target = $(target);
+		
+		$('html, body').animate({'scrollTop': $target.offset().top}, 1000, 'swing');
+	});
+</script>
