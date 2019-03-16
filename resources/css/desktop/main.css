@@ -23,6 +23,7 @@
 .side-nav{
 	z-index: 9; position: fixed; background: #FFF; right: -100%; top: 50%; transform: translateY(-50%);
 	border-bottom-left-radius: 5px; border-top-left-radius: 5px; overflow: hidden; transition: .4s ease-in-out;
+	box-shadow: -1px 1px 8px #000;
 }
 
 .side-nav ul li{
@@ -163,7 +164,7 @@ margin-right:150px;
 	}
 	.hdesc{font-size:20px;}
 	.pdesc{font-size:15px;}
-	.titleserv{margin-top:20px;margin-bottom;45px;}
+	.titleserv{margin-top:20px; margin-bottom: 45px;}
 	.conteudoserv{margin-left:20px;line-height:30px;}
 
 	
