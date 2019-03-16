@@ -20,7 +20,18 @@
 	
 }
 
+.side-nav{
+	z-index: 9; position: fixed; background: #FFF; right: -100%; top: 50%; transform: translateY(-50%);
+	border-bottom-left-radius: 5px; border-top-left-radius: 5px; overflow: hidden; transition: .4s ease-in-out;
+}
 
+.side-nav ul li{
+	width: 40px; height: 40px;
+}
+
+.side-nav ul li a img{
+	position: relative; height: 80%; width: 80%; top:  50%; left: 50%; transform: translateY(-50%) translateX(-50%);
+}
 
 .email{display:flex;
 	flex-direction:row;
