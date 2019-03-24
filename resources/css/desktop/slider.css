@@ -21,11 +21,11 @@
       z-index: 999;
 }
 .desc4{
-    position: absolute; width: 480px; height: 480px !important; background: rgba(128,0,128,0.7);left:55%;top:5px;border-radius: 18px;
+    position: absolute; width: 480px !important; height: 480px !important; background: rgba(128,0,128,0.7);left:55%;top:5px;border-radius: 18px;
       z-index: 9;color:white;
 }
 .desc5{
-    position: absolute; width: 480px; height: 480px !important; background: rgba(249,151,5,0.7);left:11%;top:5px;border-radius: 18px;
+    position: absolute; width: 480px !important; height: 480px !important; background: rgba(249,151,5,0.7);left:11%;top:5px;border-radius: 18px;
       z-index: 9;color:white;
 }
 
