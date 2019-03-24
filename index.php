@@ -12,57 +12,68 @@
     </head>
     <body>
         <div class="container">
-            <div class="header">
-			
-			<div class="email">
-			<img class="imgemail" src="email.png" alt="email" width=20 height=20>
-			<p> ardesentupidora@hotmail.com</p>
-			</div>
-			
-			
-			<div class="telefone">
-			<img class="imgtel" src="tel.jpg" alt="telefone" width=25 height=23>
-			<p>(47) 3432-9438 | (47) 9636-1848 | (47) 8453-4653</p>
-			
-			</div>
-			
-
+            <div class="header">			
+				<div class="email">
+					<img class="imgemail" src="email.png" alt="email" width=20 height=20>
+					<p> ardesentupidora@hotmail.com</p>
+				</div>
+				<div class="telefone">
+					<img class="imgtel" src="tel.jpg" alt="telefone" width=25 height=23>
+					<p>(47) 3432-9438 | (47) 9636-1848 | (47) 8453-4653</p>			
+				</div>
             </div>
-            <div class="menu">
+            <div class="menu" id="top-menu">
 			
-			<div class="logo">
-			<img src="resources/img/favicon.png" class="ar" alt="">
-			<h1 class="ar">  </h1>
-			</div>
+				<div class="logo">
+					<img src="resources/img/logo.svg" class="ar" alt="">
+					<h1 class="ar">  </h1>
+				</div>
 			
 			<div class="itens-menu">
 				<ul class="nav">
 					<li class="nav-item">
-						<a href="index.php " rel="noopener noreferrer">
+						<a href="index.php " class="scroll-link" rel="noopener noreferrer">
 							<img class="nav-icon" src="inicio.jpg" alt="inicio" width=60 height=62>
 							<p class="legendaicon">Inicio</p>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="index.php #formContato" rel="noopener noreferrer">
+						<a href="index.php #formContato" class="scroll-link" rel="noopener noreferrer">
 							<img class="nav-icon" src="contato.png" alt="inicio" width=60 height=62>
 							<p class="legendaicon">Contato</p>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="index.php #servicos" rel="noopener noreferrer">
+						<a href="index.php #servicos" class="scroll-link" rel="noopener noreferrer">
 							<img class="nav-icon" src="serviços.jpg" alt="inicio" width=60 height=62>
 							<p class="legendaicon">Serviços</p>
 						</a>
 					</li>
 				</ul>
-			
-			<ul>			
+				<div class="side-nav" id="side-menu">
+					<ul>
+						<li>
+							<a href="index.php #galeria" class="scroll-link" rel="noopener noreferrer">
+								<img class="nav-icon" src="inicio.jpg" alt="inicio" width=60 height=62>
+							</a>
+						</li>
+						<li>
+							<a href="index.php #formContato" class="scroll-link" rel="noopener noreferrer">
+								<img class="nav-icon" src="contato.png" alt="inicio" width=60 height=62>
+							</a>				
+						</li>
+						<li>
+							<a href="index.php #servicos" class="scroll-link" rel="noopener noreferrer">
+								<img class="nav-icon" src="serviços.jpg" alt="inicio" width=60 height=62>
+							</a>
+						</li>
+					</ul>
+				</div>		
 			</div>
             </div>
             <div class="content" id="loader">
 
-                <div class="slider">
+                <div class="slider" id="galeria">
                     <div class="sliderimg">
                         <div id="1"  class="visible">
                             <div class="desc">
@@ -113,18 +124,18 @@
 			
 			</div>
 			
-			<div class="mapa">
-	 <img src="map.png" alt="inicio" width=310 height=275>
-	 
-	 <div class="dadosemail">
-	 <img src="email1.png" alt="inicio" width=27 height=27>
-	 <p> ardesentupidora@hotmail.com</p>
-	  </div>
-	   <div class="dadostel">
-	  <img src="whats.png" alt="inicio" width=27 height=27>
-	 <p>(47) 3432-9438 | (47) 9636-1848</p>
-	 </div>	  	 
-	 </div>
+<div class="mapa">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.355144288208!2d-48.81746731216157!3d-26.30315905763193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb1991fe7254f%3A0x1ceb930d58f209c5!2sR.+Ant%C3%B4nio+de+Oliveira+Silva%2C+509+-+Boa+Vista%2C+Joinville+-+SC%2C+89206-030!5e0!3m2!1spt-BR!2sbr!4v1552756024831" 
+	width="310" height="275" frameborder="0" style="border:0" allowfullscreen></iframe>
+	<div class="dadosemail">
+		<img src="email1.png" alt="inicio" width=27 height=27>
+		<p> ardesentupidora@hotmail.com</p>
+	</div>
+	<div class="dadostel">
+		<img src="whats.png" alt="inicio" width=27 height=27>
+		<p>(47) 3432-9438 | (47) 9636-1848</p>
+	</div>	  	 
+</div>
     </div>
   
 			<div class="servicos" id="servicos">
@@ -177,14 +188,6 @@
     </body>
 </html>
 <script src="resources/js/jquery-3.3.1.min.js"></script>
+<script src="resources/js/jquery-visible.min.js"></script>
+<script src="resources/js/navigation.js"></script>
 <script src="resources/js/slider.js"></script>
-<script>
-	$('a[href^="#"]').on('click', function(e)
-	{
-		e.preventDefault();
-		var target = this.hash;
-		var $target = $(target);
-		
-		$('html, body').animate({'scrollTop': $target.offset().top}, 1000, 'swing');
-	});
-</script>
