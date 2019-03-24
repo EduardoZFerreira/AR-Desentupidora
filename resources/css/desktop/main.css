@@ -21,7 +21,7 @@
 }
 
 .side-nav{
-	z-index: 9; position: fixed; background: #FFF; right: -100%; top: 50%; transform: translateY(-50%);
+	z-index: 9999; position: fixed; background: #FFF; right: -100%; top: 50%; transform: translateY(-50%);
 	border-bottom-left-radius: 5px; border-top-left-radius: 5px; overflow: hidden; transition: .4s ease-in-out;
 	box-shadow: -1px 1px 8px #000;
 }

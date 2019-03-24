@@ -2,12 +2,83 @@
 /* Retrato */
 @media only screen and (max-width: 1023px) and (orientation: portrait)
 {
-	
+	.logo{ width: 20%;}
 	.img{margin-left:150px;}
+	.arrow{
+		width: 150px !important; height: 150px !important;
+	}
+	.side-nav ul li{
+		width: 140px !important; height: 140px !important;
+	}
+	.itens-menu{
+		width: 60% !important;
+	}
+
+	.menu{
+		height: 220px !important;
+	}
+
+	.desc4{
+		width: 380px !important; height: 380px !important; background: rgba(128,0,128,0.7); left:55%;
+		word-wrap: break-word !important;
+	}
+	.desc5{
+		position: absolute; width: 380px !important; height: 380px !important; background: rgba(249,151,5,0.7);
+		z-index: 9; color:white; word-wrap: break-word !important;
+	}
+
+	.circles{
+		height: 60px !important;  bottom: 0;
+	}
+
+	.circle{
+		position: relative; background: #FFF; width: 60px !important; height: 60px !important; display: inline-block; 
+		left: 50%; transform: translateX(-150%); border-radius: 100%; z-index: 999; cursor: pointer;
+	}
+
+	.pdesc{
+		position: relative; max-width: 95% !important;
+		word-wrap: break-word !important;
+	}
 }
 
 /* Paisagem */
 @media only screen and (max-width: 1023px) and (orientation: landscape)
 {
+	
 .img{padding-left:30px;}
+.arrow{
+	width: 150px !important; height: 150px !important;
+}
+.side-nav ul li{
+	width: 70px !important; height: 70px !important;
+}
+.itens-menu{
+	width: 60% !important;
+}
+
+
+.desc4{
+	width: 380px !important; height: 380px !important; background: rgba(128,0,128,0.7); left:55%;
+	word-wrap: break-word !important;
+}
+.desc5{
+	position: absolute; width: 380px !important; height: 380px !important; background: rgba(249,151,5,0.7);
+	z-index: 9; color:white; word-wrap: break-word !important;
+}
+
+.circles{
+	height: 60px !important;  bottom: 0;
+}
+
+.circle{
+	position: relative; background: #FFF; width: 60px !important; height: 60px !important; display: inline-block; 
+	left: 50%; transform: translateX(-150%); border-radius: 100%; z-index: 999; cursor: pointer;
+}
+
+.pdesc{
+	position: relative; max-width: 95% !important;
+	word-wrap: break-word !important;
+}
+
 }

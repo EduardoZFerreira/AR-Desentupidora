@@ -12,28 +12,22 @@
     </head>
     <body>
         <div class="container">
-            <div class="header">
-			
-			<div class="email">
-			<img class="imgemail" src="email.png" alt="email" width=20 height=20>
-			<p> ardesentupidora@hotmail.com</p>
-			</div>
-			
-			
-			<div class="telefone">
-			<img class="imgtel" src="tel.jpg" alt="telefone" width=25 height=23>
-			<p>(47) 3432-9438 | (47) 9636-1848 | (47) 8453-4653</p>
-			
-			</div>
-			
-
+            <div class="header">			
+				<div class="email">
+					<img class="imgemail" src="email.png" alt="email" width=20 height=20>
+					<p> ardesentupidora@hotmail.com</p>
+				</div>
+				<div class="telefone">
+					<img class="imgtel" src="tel.jpg" alt="telefone" width=25 height=23>
+					<p>(47) 3432-9438 | (47) 9636-1848 | (47) 8453-4653</p>			
+				</div>
             </div>
             <div class="menu" id="top-menu">
 			
-			<div class="logo">
-			<img src="resources/img/logo.svg" class="ar" alt="">
-			<h1 class="ar">  </h1>
-			</div>
+				<div class="logo">
+					<img src="resources/img/logo.svg" class="ar" alt="">
+					<h1 class="ar">  </h1>
+				</div>
 			
 			<div class="itens-menu">
 				<ul class="nav">
@@ -56,25 +50,25 @@
 						</a>
 					</li>
 				</ul>
-			<div class="side-nav" id="side-menu">
-				<ul>
-					<li>
-						<a href="index.php #galeria" class="scroll-link" rel="noopener noreferrer">
-							<img class="nav-icon" src="inicio.jpg" alt="inicio" width=60 height=62>
-						</a>
-					</li>
-					<li>
-						<a href="index.php #formContato" class="scroll-link" rel="noopener noreferrer">
-							<img class="nav-icon" src="contato.png" alt="inicio" width=60 height=62>
-						</a>				
-					</li>
-					<li>
-						<a href="index.php #servicos" class="scroll-link" rel="noopener noreferrer">
-							<img class="nav-icon" src="serviços.jpg" alt="inicio" width=60 height=62>
-						</a>
-					</li>
-				</ul>
-			</div>		
+				<div class="side-nav" id="side-menu">
+					<ul>
+						<li>
+							<a href="index.php #galeria" class="scroll-link" rel="noopener noreferrer">
+								<img class="nav-icon" src="inicio.jpg" alt="inicio" width=60 height=62>
+							</a>
+						</li>
+						<li>
+							<a href="index.php #formContato" class="scroll-link" rel="noopener noreferrer">
+								<img class="nav-icon" src="contato.png" alt="inicio" width=60 height=62>
+							</a>				
+						</li>
+						<li>
+							<a href="index.php #servicos" class="scroll-link" rel="noopener noreferrer">
+								<img class="nav-icon" src="serviços.jpg" alt="inicio" width=60 height=62>
+							</a>
+						</li>
+					</ul>
+				</div>		
 			</div>
             </div>
             <div class="content" id="loader">
