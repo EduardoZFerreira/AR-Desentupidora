@@ -31,7 +31,7 @@
             <div class="menu" id="top-menu">
 			
 			<div class="logo">
-			<img src="resources/img/favicon.png" class="ar" alt="">
+			<img src="resources/img/logo.svg" class="ar" alt="">
 			<h1 class="ar">  </h1>
 			</div>
 			
