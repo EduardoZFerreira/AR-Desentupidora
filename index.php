@@ -88,9 +88,7 @@
                             <img src="resources/img/slider/2.jpg" alt="" />
                         </div>
                         <div id="3"  class="hidden">
-                            <div class="desc3">
-							<center><p class="titleslider">Serviços </br> De </br> Hidrojateamento</p></center>
-                            </div>
+                            
                             <img src="resources/img/slider/3.jpg" alt="" />
                         </div>
                     </div>
