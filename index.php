@@ -113,13 +113,15 @@
 				<center></br><h1> Solicite um Orçamento </h1></center>
 			</div>
             <div class="Contato" id="formContato">	
-			<div class="form">
-			<input type="text"  placeholder="Nome" required="required" name="nome" /></br>
-			<input type="text"  placeholder="Email" required="required" name="email" /></br>
-			<input type="text"  placeholder="Telefone" required="required" name="telefone" /></br>
-			<textarea placeholder="Como podemos te ajudar"></textarea>
-			<p class="submit">
-			<input type="submit" onclick="Enviar();" value="Enviar" />
+			<form action="contato.php" method="POST">
+				<div class="form">
+				<input type="text"  placeholder="Nome" required name="nome" /></br>
+				<input type="text"  placeholder="Email" required name="email" /></br>
+				<input type="text"  placeholder="Telefone" required name="telefone" /></br>
+				<textarea placeholder="Como podemos te ajudar" name="descricao"></textarea>
+				<p class="submit">
+				<input type="submit" value="Enviar" />
+			</form>
         </p>
 			
 			</div>
