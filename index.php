@@ -116,7 +116,7 @@
 			<form action="contato.php" method="POST">
 				<div class="form">
 				<input type="text"  placeholder="Nome" required name="nome" /></br>
-				<input type="text"  placeholder="Email" required name="email" /></br>
+				<input type="text"  placeholder="E-mail" name="email" /></br>
 				<input type="text"  placeholder="Telefone" required name="telefone" /></br>
 				<textarea placeholder="Como podemos te ajudar" name="descricao"></textarea>
 				<p class="submit">

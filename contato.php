@@ -4,17 +4,26 @@ require_once "config.php";
 
 if(isset($_POST))
 {
-    $nome = $_POST['nome'];
-    $email = $_POST['email'];
-    $telefone = $_POST['telefone'];
+    $cliente = new Person($_POST['nome'], $_POST['email'], $_POST['telefone']);
+    $empresa = new Person("AR Desentupidora", CONTACT_MAIL, "(47) 99999-5517");
     $descricao = $_POST['descricao'];
 
-    $mailer = SetMailer("mailUser", "password", "gmail", "dev");
-    $mailer->setFrom('eduardo.zekl@gmail.com', 'AR Desentupidora');
-    $mailer->addAddress($email, $nome);
-    $mailer->Subject = 'Nova solicitação de orçamento';
-    $mailer->Body = $descricao;
-    $mailer->send();
+    $assunto = "Há uma nova solicitação de orçamento feita por: " . $cliente->GetNome();
+    $mensagem = $cliente->ContactInfo();
+    $mensagem .= "<br>Detalhes: " . $descricao;
+
+    $mailer = new Mailer("mail", "password", "gmail", "dev");
+    $mailer->ConfigSMTP();
+    
+    if($mailer->SendNewTextMail($empresa, $cliente, $assunto, $mensagem) && $cliente->GetEmail() != "Não informado")
+    {
+        $assuntoCliente = "Recebemos sua solicitação de orçamento!";
+        $mensagemCliente = "Olá " . $cliente->GetNome() . "! <br>";
+        $mensagemCliente .= "Recebemos sua solicitação de orçamento pelo nosso site, entraremos em contato em breve!<br>";
+        $mensagemCliente .= "Você pode falar conosco em: <br>";
+        $mensagemCliente .= $empresa->ContactInfo();
+        $mailer->SendNewTextMail($cliente, $empresa, $assuntoCliente, $mensagemCliente);
+    }
     header("Location: index.php");
 }
 else
