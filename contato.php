@@ -12,7 +12,7 @@ if(isset($_POST))
     $mensagem = $cliente->ContactInfo();
     $mensagem .= "<br>Detalhes: " . $descricao;
 
-    $mailer = new Mailer("mail", "password", "gmail", "dev");
+    $mailer = new Mailer("ardesentupidora.noreply@gmail.com", "", "gmail", "dev");
     $mailer->ConfigSMTP();
     
     if($mailer->SendNewTextMail($empresa, $cliente, $assunto, $mensagem) && $cliente->GetEmail() != "Não informado")

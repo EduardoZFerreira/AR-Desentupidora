@@ -72,7 +72,8 @@ class Mailer extends PHPMailer\PHPMailer\PHPMailer
     {
         try
         {
-            $this->setFrom($remetente->GetEmail(), $remetente->GetNome());
+            $this->AddReplyTo($remetente->GetEmail(), $remetente->GetNome());
+            $this->setFrom($remetente->GetEmail(), $remetente->GetNome());            
             $this->addAddress($recipiente->GetEmail(), $recipiente->GetNome());
             $this->Subject = $assunto;
             $this->Body = $mensagem;

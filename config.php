@@ -4,7 +4,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 require_once "vendor" . DIRECTORY_SEPARATOR . "autoload.php";
 
-define("CONTACT_MAIL", "eduardo.zekl@gmail.com");
+define("CONTACT_MAIL", "ardesentupidora@hotmail.com");
 
 spl_autoload_register(function($classname){
     $class_dir = "Classes";
